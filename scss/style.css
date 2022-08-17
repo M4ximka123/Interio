@@ -282,4 +282,10 @@ body {
   font-size: 20px;
   line-height: 30px;
   max-width: 244px;
+}
+.about__brand {
+  padding-top: 139px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */

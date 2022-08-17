@@ -292,4 +292,10 @@ body {
         line-height: 30px;
         max-width: 244px;
     }
+    &__brand{
+        padding-top: 139px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
 }
