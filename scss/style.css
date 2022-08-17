@@ -347,4 +347,30 @@ body {
   border-radius: 100px;
   display: inline-block;
   padding: 27px 35px 27px 41px;
+}
+.resent__count {
+  background-color: #f4f0ec;
+  margin-top: 140px;
+}
+.resent__count-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.resent__count-item {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.resent__count-number {
+  color: #cda274;
+  display: inline-block;
+  letter-spacing: 1.7px;
+  font-size: 85px;
+  line-height: 128px;
+  font-family: "DM Serif Display", serif;
+  margin: 0 auto;
+}
+.resent__count-text {
+  color: #4d5053;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
