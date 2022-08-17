@@ -163,6 +163,7 @@ body {
 
 .projects {
     padding-top: 100px;
+    margin-bottom: 140px;
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -185,6 +186,32 @@ body {
         line-height: 33px;
         margin-bottom: 40px;
     }
+    &__content-box {
+        display: flex;
+        gap: 20px;
+    }
+    &__content-list {
+        padding-top: 10px;
+    }
+    &__content-phone {
+        width: 93px;
+        height: 93px;
+        background-color: #f4f0ec;
+        border-radius: 100px;
+        padding: 29px 29px 30px 30px;
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+    &__content-number {
+        color: #4d5053;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    &__content-descr {
+        color: #4d5053;
+        font-size: 22px;
+        line-height: 33px;
+    }
     &__content-link {
         display: block;
         background-color: #292f36;
@@ -199,15 +226,70 @@ body {
         font-weight: 400;
         position: relative;
     }
-    &__content-link::after{
-        content:"";
+    &__content-link::after {
+        content: "";
         position: absolute;
-        background-image: url('../images/icon/icon-arrov.svg');
+        background-image: url("../images/icon/icon-arrov.svg");
         background-repeat: no-repeat;
         right: 35px;
         top: 15px;
         width: 29px;
         height: 40px;
     }
+}
 
+.about {
+    &__inner{
+        background-color: #f4f0ec;
+        border-radius: 70px;
+    }
+    &__title {
+        padding-top: 103px;
+        text-align: center;
+        color: $title-color;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        font-family: "DM Serif Display", serif;
+        max-width: 479px;
+        margin: 0 auto;
+        
+    }
+    &__box{
+        display: flex;
+        justify-content: center;
+        gap: 17px;
+        padding-top: 45px;
+        padding-bottom: 120px;
+    }
+    &__box-item {
+        background-color: #ffffff;
+        border-radius: 30px;
+        max-width: 364px;
+        padding: 50px 79px 45px 35px;
+    }
+    &__item-list{
+        display: inline-block;
+        margin-left: 20px;
+        position: relative;
+        top: -15px;
+    }
+    &__item-title {
+        color: $title-color;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 38px;
+        font-family: "DM Serif Display", serif;
+    }
+    &__item-descr {
+        color: $text-color;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    &__item-text {
+        color: $text-color;
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 244px;
+    }
 }
