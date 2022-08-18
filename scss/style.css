@@ -504,4 +504,63 @@ body {
   top: 0;
   width: 28px;
   height: 40px;
+}
+
+.footer {
+  padding-top: 130px;
+  padding-bottom: 110px;
+}
+.footer__inner {
+  display: flex;
+  gap: 30px;
+}
+.footer__logo {
+  margin-bottom: 15px;
+}
+.footer__text {
+  color: #4d5053;
+  max-width: 362px;
+  margin-bottom: 9px;
+}
+.footer__social {
+  display: flex;
+}
+.footer__social-item + .footer__social-item {
+  margin-left: 40px;
+}
+.footer__box-right {
+  display: flex;
+  gap: 110px;
+}
+.footer__pages-item span, .footer__explore-item span, .footer__contact-item span {
+  color: #292f36;
+  letter-spacing: 0.22px;
+  font-size: 25px;
+  line-height: 38px;
+  font-family: "DM Serif Display", serif;
+  display: inline-block;
+  margin-bottom: 21px;
+}
+.footer__pages-item a, .footer__explore-item a, .footer__contact-item a {
+  color: #4d5053;
+  letter-spacing: 0.22px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.footer__contact-item:nth-child(2) {
+  color: #4d5053;
+  letter-spacing: 0.22px;
+  margin-bottom: 29px;
+}
+.footer__bottom {
+  border-top: 1px solid #E5E5E5;
+  margin-top: 110px;
+  text-align: center;
+}
+.footer__bottom a {
+  color: #4d5053;
+  font-weight: 400;
+}
+.footer__bottom a span {
+  color: #CDA274;
 }/*# sourceMappingURL=style.css.map */

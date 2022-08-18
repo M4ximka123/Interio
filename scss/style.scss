@@ -540,15 +540,84 @@ body {
             line-height: 27px;
             padding: 21px 68px 23px 34px;
         }
-        a::before{
-            content:"";
-            background-image: url('../images/icon/icon-arrov4.svg');
+        a::before {
+            content: "";
+            background-image: url("../images/icon/icon-arrov4.svg");
             background-repeat: no-repeat;
             position: absolute;
             right: 495px;
             top: 0;
             width: 28px;
             height: 40px;
+        }
+    }
+}
+
+.footer {
+    padding-top: 130px;
+    padding-bottom: 110px;
+    &__inner {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__logo {
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        color: $text-color;
+        max-width: 362px;
+        margin-bottom: 9px;
+    }
+
+    &__social {
+        display: flex;
+    }
+
+    &__social-item + &__social-item {
+        margin-left: 40px;
+    }
+    &__box-right {
+        display: flex;
+        gap: 110px;
+    }
+    &__pages-item,
+    &__explore-item,
+    &__contact-item {
+        span {
+            color: $title-color;
+            letter-spacing: 0.22px;
+            font-size: 25px;
+            line-height: 38px;
+            font-family: "DM Serif Display", serif;
+            display: inline-block;
+            margin-bottom: 21px;
+        }
+        a {
+            color: $text-color;
+            letter-spacing: 0.22px;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+    }
+
+    &__contact-item:nth-child(2) {
+        color: $text-color;
+        letter-spacing: 0.22px;
+        margin-bottom: 29px;
+    }
+    &__bottom{
+        border-top: 1px solid #E5E5E5;
+        margin-top: 110px;
+        text-align: center;
+        a{
+            color: $text-color;
+            font-weight: 400;
+            span{
+                color: #CDA274;
+
+            }
         }
     }
 }
