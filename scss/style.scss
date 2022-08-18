@@ -378,27 +378,34 @@ body {
     &__count-wrapper {
         display: flex;
         justify-content: center;
-        gap: 15px;
-    }
-
-    &__count-item {
+        gap: 45px;
         padding-top: 140px;
         padding-bottom: 140px;
     }
+
+    &__count-item {
+        border-right: 1px solid #CDA274;
+        padding-right: 85px;
+    }
+
+    &__count-item:nth-child(4){
+        border-right: none;
+    }
     
     &__count-number {
-        // border-right: 1px solid #CDA274;
         color: #cda274;
-        display: inline-block;
+        display: block;
         letter-spacing: 1.7px;
         font-size: 85px;
         line-height: 128px;
         font-family: "DM Serif Display", serif;
-        margin: 0 auto;
+        font-weight: 400;
+        text-align: center;
     }
 
     &__count-text {
         color: $text-color;
         text-align: center; 
+        // padding-right: 55px;
     }
 }
