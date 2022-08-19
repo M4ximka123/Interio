@@ -564,4 +564,22 @@ body {
 }
 .footer__bottom a span {
   color: #CDA274;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.burger__menu{
+  width: 50px;
+  height: 40px;
+  background-color: #ccc;
+  padding-top: 5px;
+  display: none;
+}
+
+.burger__menu div{
+  width: 30px;
+  height: 3px;
+  background-color:#292f36;
+  margin-top: 5px;
+  margin-left: 10px
+}
+
+/*# sourceMappingURL=style.css.map */
