@@ -1,3 +1,27 @@
+@media(max-width:1168px){
+  .projects__inner{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  .projects__inner img{
+    width: 100%;
+  } 
+  .projects__content-title{
+   margin: 0 auto;
+   padding-bottom: 42px;
+  }
+  .projects__content-text{
+    text-align: center;
+  }
+  .projects__content-box{
+    justify-content: center;
+  }
+  .projects__content-link{
+   margin: 0 auto;
+  }
+}
+
 @media(max-width:1050px) {
   .opportunities__inner {
     justify-content: center;
@@ -79,7 +103,7 @@
   }
 }
 
-@media(max-width:495px) {
+@media(max-width:496px) {
   .header__content-title {
     padding-top: 170px;
     font-size: 45px;
@@ -94,6 +118,24 @@
 
   .header__content-link::after {
     width: 80px;
+  }
+  .projects__content-title{
+    max-width: 316px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    line-height: 50px;
+  }
+  .projects__content-text{
+    /* max-width: 371px; */
+    font-size: 19px;
+  }
+}
+
+@media(max-width:363px) {
+  .projects__content-title{
+    max-width: 255px;
+    font-size: 28px;
+    line-height: 45px;
   }
 }
 
