@@ -569,17 +569,20 @@ body {
 .burger__menu{
   width: 50px;
   height: 40px;
-  background-color: #ccc;
+  background-color: #292F36;
   padding-top: 5px;
   display: none;
+  border-radius: 10px;
 }
 
 .burger__menu div{
   width: 30px;
   height: 3px;
-  background-color:#292f36;
+  background-color:#CDA274;
   margin-top: 5px;
-  margin-left: 10px
+  margin-left: 10px;
+  transition: all .3s;
+  border-radius: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */
