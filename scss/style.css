@@ -93,7 +93,7 @@ body {
   max-width: 577px;
   margin-bottom: 68px;
 }
-.header__content-link {
+.header__content-link a {
   display: inline-block;
   border: 2px solid #292f36;
   border-radius: 18px;
@@ -102,7 +102,7 @@ body {
   position: relative;
   color: #fff;
 }
-.header__content-link::after {
+.header__content-link a::after {
   content: "";
   background-image: url("../images/icon/icon-arrov.svg");
   background-repeat: no-repeat;
@@ -553,7 +553,7 @@ body {
   margin-bottom: 29px;
 }
 .footer__bottom {
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
   margin-top: 110px;
   padding-top: 35px;
   text-align: center;
@@ -563,10 +563,10 @@ body {
   font-weight: 400;
 }
 .footer__bottom a span {
-  color: #CDA274;
+  color: #cda274;
 }
 
-.burger__menu{
+.burger__menu {
   width: 50px;
   height: 40px;
   background-color: #292F36;
@@ -575,14 +575,12 @@ body {
   border-radius: 10px;
 }
 
-.burger__menu div{
+.burger__menu div {
   width: 30px;
   height: 3px;
-  background-color:#CDA274;
+  background-color: #CDA274;
   margin-top: 5px;
   margin-left: 10px;
-  transition: all .3s;
+  transition: all 0.3s;
   border-radius: 3px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
