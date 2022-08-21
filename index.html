@@ -8,19 +8,19 @@
     <title>Interio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&family=Jost&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="scss/normalize.css">
-    <link rel="stylesheet" href="scss/style.css"> 
+    <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="scss/media.css">
 </head>
 
 <body>
 
-     <header class="header">
+    <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a class="header__logo" href="#">
+                <a class="header__logo animate__animated animate__fadeInUp" href="#">
                     <img class="logo__img" src="images/header/logo.svg" alt="logo Interno"></img>
                 </a>
                 <nav class="nav">
@@ -31,7 +31,7 @@
                     </div>
                     <ul class="header__list">
                         <li class="header__list-item">
-                            <a href="#link-1" class="header__list-link link-active">Home</a>
+                            <a href="#" class="header__list-link link-active">Home</a>
                         </li>
                         <li class="header__list-item">
                             <a href="#link-2" class="header__list-link">About Us</a>
@@ -51,10 +51,10 @@
         </div>
         <div class="header__content">
             <div class="container">
-                <h1 class="header__content-title" id="link-1">
+                <h1 class="header__content-title animate__animated animate__fadeInLeft" >
                     Let's Create Your Dream Interior
                 </h1>
-                <p class="header__content-text">
+                <p class="header__content-text animate__animated animate__bounceInLeft">
                     The world needs innovators and problem solvers who turn
                 </p>
                 <div class="header__content-link">
@@ -65,7 +65,7 @@
     </header>
     <section class="opportunities">
         <div class="container">
-            <div class="opportunities__inner">
+            <div data-wow-duration="1.5s" class="opportunities__inner wow animate__fadeInRightBig animate__animated">
                 <div class="opportunities__item">
                     <h4 class="opportunities__item-title" id="link-3">
                         Interior Design
@@ -106,7 +106,7 @@
         <div class="container">
             <div class="projects__inner">
                 <div class="projects__content">
-                    <h2 class="projects__content-title">
+                    <h2 data-wow-duration="2s" class="projects__content-title wow animate__animated animate__flash">
                         We Tackle The Most Challenging Designs
                     </h2>
                     <p class="projects__content-text">
@@ -114,7 +114,7 @@
                         We have an insatiable curiosity about transformative trends challenging the status.
                     </p>
                     <div class="projects__content-box">
-                        <a class="projects__content-phone" href="tel:012345678">
+                        <a data-wow-duration="1.5s" class="projects__content-phone animate__heartBeat animate__animated wow" href="tel:012345678">
                             <img src="images/icon/phone.svg" alt="icon phone">
                         </a>
                         <ul class="projects__content-list">
@@ -142,7 +142,7 @@
                     About Interno
                 </h2>
                 <div class="about__box">
-                    <div class="about__box-item">
+                    <div data-wow-duration="1.5s" class="about__box-item animate__zoomIn animate__animated wow">
                         <img src="images/about/item1.jpg" alt="photo">
                         <ul class="about__item-list">
                             <li class="about__item-title">
@@ -156,7 +156,7 @@
                             We selected Interno interior because of rigorous design background & education.
                         </p>
                     </div>
-                    <div class="about__box-item">
+                    <div data-wow-duration="1.5s" class="about__box-item animate__zoomIn animate__animated wow">
                         <img src="images/about/item2.jpg" alt="photo">
                         <ul class="about__item-list">
                             <li class="about__item-title">
@@ -170,7 +170,7 @@
                             The team exceeded our expectations and emerged as leaders of our project’s.
                         </p>
                     </div>
-                    <div class="about__box-item">
+                    <div data-wow-duration="1.5s" class="about__box-item animate__zoomIn animate__animated wow">
                         <img src="images/about/item3.jpg" alt="photo">
                         <ul class="about__item-list">
                             <li class="about__item-title">
@@ -205,7 +205,7 @@
                     With tools to make every part of your process more human and a support team
                     excited to help you, getting started with us never been easier.
                 </p>
-                <div class="resent__box">
+                <div class="resent__box wow animate__fadeInLeft animate__animated" data-wow-duration="1.8s">
                     <div class="resent__box-item">
                         <img class="resent__item-img" src="images/resent/picture1.png" alt="picture">
                         <div class="resent__item-wrapper">
@@ -273,7 +273,7 @@
                 </div>
             </div>
     </section>
-     <div class="resent__count">
+    <div class="resent__count">
         <div class="container">
             <div class="resent__count-wrapper">
                 <div class="resent__count-item">
@@ -438,7 +438,7 @@
                 <p class="contact__text">
                     Contact Us & Get a Free Consultation
                 </p>
-                <div class="contact__link">
+                <div class="contact__link wow animate__headShake animate__animated" data-wow-duration="1.5s">
                     <a href="#">
                         Connect With us
                     </a>
@@ -474,8 +474,7 @@
                         </li>
                         <li class="footer__social-item">
                             <a class="footer__social-link" href="#">
-                                <img class="footer__social-icon" src="images/icon/instagram.svg"
-                                    alt="icon instagram">
+                                <img class="footer__social-icon" src="images/icon/instagram.svg" alt="icon instagram">
                             </a>
                         </li>
                     </ul>
@@ -547,9 +546,10 @@
                 Copyright © Interno | Designed by <span>Victorflow</span> Templates - Powered by <span>Webflow</span>
             </a>
         </div>
-    </footer> 
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
